@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/32/f6/8a/32f68a3b36b6c60f1d8bac9ba4af46fc.jpg);
+    font-family: 'Lora', serif;
+}
+
+main{
+    width: 70vw;
+    height: 90vh;
+    background: rgb(2, 2, 7);
+    margin: 5vh auto;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.decoration{
+    width: 90%;
+    height: 95%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 30px 50px;
+    border: 10px double white;
+    color: white;
+    text-align: center;
+}
+p{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    right: 20px;
+    font-size: 14px;
+    line-height: 17px;
+}
+button{
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+}
