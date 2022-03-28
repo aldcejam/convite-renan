@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    width: 70vw;
+    max-width: 900px;
     height: 90vh;
     background: rgb(2, 2, 7);
     margin: 5vh auto;
@@ -19,37 +19,34 @@ main{
     
 }
 .decoration{
-    width: 90%;
-    height: 95%;
+    max-width: 900px;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
-    padding: 30px 50px;
+    padding: 30px 0;
     border: 10px double white;
     color: white;
     text-align: center;
 }
-p{
-    position: absolute;
-    bottom: 50px;
-    left: 20px;
-    right: 20px;
-    font-size: 14px;
-    line-height: 17px;
+.title{
+    font-size: clamp(20px, 70%, 50px);
 }
-button{
-    width: 200px;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    margin: auto;
+.text{
+    max-height: 70vh;
+    overflow-y: auto;
+    margin: 30px;
+}
+a{
+    display: block;
+    width: clamp(40px, 90%, 100px);
+    margin: 10px auto;
     padding: 5px;
     border: 0;
     border-radius: 5px;
     background-color: aliceblue;
+    text-decoration: none;
     
 }
