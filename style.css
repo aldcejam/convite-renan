@@ -1,24 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(https://i.pinimg.com/originals/32/f6/8a/32f68a3b36b6c60f1d8bac9ba4af46fc.jpg);
     font-family: 'Lora', serif;
 }
 
-main{
+main {
     max-width: 900px;
     height: 90vh;
     background: rgb(2, 2, 7);
     margin: 5vh auto;
     border-radius: 5px;
     position: relative;
-    
 }
-.decoration{
+
+.decoration {
     max-width: 900px;
     position: absolute;
     left: 0;
@@ -31,15 +31,19 @@ main{
     color: white;
     text-align: center;
 }
-.title{
+
+.title {
     font-size: clamp(20px, 70%, 50px);
+    margin: 10px 0;
 }
-.text{
+
+.text {
     max-height: 70vh;
     overflow-y: auto;
     margin: 30px;
 }
-a{
+
+a {
     display: block;
     width: clamp(40px, 90%, 100px);
     margin: 10px auto;
@@ -48,5 +52,4 @@ a{
     border-radius: 5px;
     background-color: aliceblue;
     text-decoration: none;
-    
 }
